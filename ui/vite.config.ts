@@ -6,7 +6,6 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 4000,
     emptyOutDir: true,
-    outDir: "../ice/routes/ui/",
   },
   plugins: [react()],
   server: {
