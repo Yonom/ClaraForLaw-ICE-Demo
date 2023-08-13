@@ -7,42 +7,9 @@ export interface Recipe {
 export type Recipes = Record<string, Recipe>;
 
 export const elicitRecipes: Recipes = {
-  "01GCZNZ1YC0XRE1QHSAV6MPWJD": {
-    title: "Placebo classification and description",
-    description: "Did this paper use a placebo? If so, what was it?",
-  },
-  "01GBXP1B256Z9VRGPWC2JYT14H": {
-    title: "Adherence via multilevel classification and chain-of-thought sampling",
-    description: "What was the adherence/drop-out rate of the experiment?",
-  },
-  "01GBXKV6EK63YW503VTMMSER3B": {
-    title: "Experiments and arms baseline using simple comparisons question-answering",
-    description:
-      "What separate experiments were conducted, and for each experiment, what were the trial arms? Baseline approach using simple decomposition.",
-  },
-  "01GFRJDVHF2BG21SP22VB8M6N1": {
-    title: "Experiments and arms using chain-of-thought to rank and answer",
-    description:
-      "What separate experiments were conducted, and for each experiment, what were the trial arms? Decompose into separate questions, rank passages, and use chain-of-thought reasoning to answer.",
-  },
-  "01GBXTYND8V67HH5H1GWZWJKGB": {
-    title: "Evaluation of results",
-    description:
-      "Find differences between gold standard and model results, classify as good or not",
-  },
-  "01GCB3AT0P2GQBBYXNBVP8VT1E": {
-    title: "Placebo description + evaluation",
-    description:
-      "Describe Placebo (assuming there is one), then auto-evaluate against gold standards",
-  },
-  "01GFRBF0HXC1VMGK210QFWPNC0": {
-    title: "Sample size per trial arm at randomization",
-    description: "For each experiment and trial arm, what was the sample size at randomization?",
-  },
-  "01GFRNYGHZ98M50S4HVSBN5BNM": {
-    title: "Search and synthesize",
-    description:
-      "Run a search using the Elicit API and generate a synthesis of the returned abstracts",
+  "01H0XZAZNMKPQXWE1XTCMW6AVA": {
+    title: "Example Conversation",
+    description: "Example conversation with Clara for Law",
   },
 };
 

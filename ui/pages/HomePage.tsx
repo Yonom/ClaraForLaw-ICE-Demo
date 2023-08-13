@@ -50,19 +50,19 @@ export default function HomePage() {
       <div className="p-2 pl-0">
         <Link to="traces/">You can view your own traces here.</Link>
       </div>
-      <RecipeGroup title="Elicit" recipes={elicitRecipes}>
+      <RecipeGroup title="Demo" recipes={elicitRecipes}>
         <p>
-          <a href="https://elicit.org/">Elicit</a> is an AI research assistant. The traces below
-          show some of the programs we&apos;ve been working on as part of Elicit.
+          <a href="https://github.com/Yonom/ClaraForLaw">Clara For Law</a> is an legal AI companion. 
+          She helps in case you receive an unexpected eviction letter from your landlord.
         </p>
       </RecipeGroup>
-      <RecipeGroup title="Primer" recipes={primerRecipes}>
+      {/* <RecipeGroup title="Primer" recipes={primerRecipes}>
         <p>
           The <a href="https://primer.ought.org/">Factored Cognition Primer</a> is a tutorial that
           demonstrates how to use ICE to build simple compositional language model programs. The
           traces below are some of the programs covered by the tutorial.
         </p>
-      </RecipeGroup>
+      </RecipeGroup> */}
     </div>
   );
 }
